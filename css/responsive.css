@@ -1,0 +1,538 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*==========navbar start==========*/
+/*
+    img {
+        width: 85%;
+    }
+*/
+    .navbar-light .navbar-toggler {
+        background: #00e0d0; 
+        border-color: rgba(0,0,0,.0);
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../image/menu.png);
+        background-size: cover;
+        transform: rotate;
+    }
+    .navbar-nav {
+        background: #13102d;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 0%;
+    }
+    .banner-contant {
+        padding-top: 120px;
+        padding-bottom: 130px;
+    }
+    .banner-contant h2 {
+        font-size: 22px;
+        margin-bottom: 70px;
+    }
+    .banner-contant p {
+        font-size: 13px;
+        padding: 0px 0px;
+        margin-bottom: 40px;
+    }
+    .banner-contant a {
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px 3px 10px;
+        background: #00e0d0;
+        margin-bottom: 40px;
+    }
+/*==========navbar end==========*/
+    
+    
+
+/*==========about start==========*/
+    #about-section {
+        padding: 40px 0px;
+    }
+    .about-image img {
+        width: 250px;
+        margin-top: -10px;
+    }
+    .about-text h2 {
+        margin-bottom: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .about-text p {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .about-text a {
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px 3px 10px;
+        background: #00e0d0;
+        margin-top: 10px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+/*==========about end==========*/
+    
+    
+
+/*==========video satrt==========*/
+    .video-contant a img {
+        width: 10%;
+        position: relative;
+        z-index: 2;
+    }
+    #video-section {
+        padding: 70px 0px;
+    }
+/*==========video end==========*/
+    
+    
+    
+/*==========expertise start==========*/
+    #expertise-section {
+        padding-top: 40px;
+    }
+    .expertise-title p {
+        font-size: 13px;
+        margin-bottom: 45px;
+    }
+    .expertise-card img {
+        width: 10%;
+        margin-bottom: 10px;
+    }
+    .expertise-card h2 {
+        margin-bottom: 5px;
+    }
+    .expertise-card p {
+	font-size: 13px;
+	margin-bottom: 40px;
+}
+/*==========expertise end==========*/
+    
+    
+    
+/*==========team start============*/
+    #team-section {
+        padding: 40px 0px;
+    }
+    .team-card-contant {
+        padding: 40px 0px;
+    }
+    .team-botton-contant a {
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px 3px 10px;
+        background: #00e0d0;
+    }
+    .tm-slide {
+        width: 307px;
+    }
+/*==========team end============*/
+    
+    
+    
+/*==========project start============*/
+    #project-section {
+        padding: 40px 0px;
+    }
+    .project-image {
+        padding: 40px 0px;
+    }
+    .project-button a {
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px 3px 10px;
+        background: #00e0d0;
+    }
+    .project-top-contant-left{
+        text-align: center;
+    }
+    .project-top-contant-right{
+        text-align: center;
+    }
+    .project-top-contant-right {
+        float:none;
+    }
+    .project-image-contant img{
+        margin-bottom: 15px;
+    }
+/*==========project end============*/
+    
+    
+    
+/*===========testimonial start==========*/
+    #testimonial-section {
+        padding: 40px 0px;
+    }
+    .testimonial-text p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+    .prevs {
+        bottom: 13%;
+        left: 3%;
+    }
+    .next {
+        bottom: 13%;
+        right: 3%;
+    }
+/*===========testimonial end==========*/ 
+    
+    
+    
+*==========contact start===========*/
+    #contact-section {
+        padding: 40px 0px;
+    }
+    .contact-item h2 {
+        text-align: center;
+    }
+    .submitbuttom {
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px 3px 10px;
+        background: #00e0d0;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .clint-item h2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .clint {
+        margin-left: 35%;
+    }
+/*==========contact end===========*/    
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+/*==========navbar start==========*/
+/*
+    img {
+        width: 90%;
+    }
+*/
+    .navbar-light .navbar-toggler {
+        background: #00e0d0; 
+        border-color: rgba(0,0,0,.0);
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../image/menu.png);
+        background-size: cover;
+        transform: rotate;
+    }
+    .navbar-nav {
+        background: #13102d;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 0%;
+    }
+    .banner-contant {
+        padding-top: 85px;
+        padding-bottom: 95px;
+    }
+    .banner-contant h2 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .banner-contant p {
+        font-size: 13px;
+        padding: 0px 0px;
+        margin-bottom: 15px;
+    }
+    .banner-contant a {
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px 3px 10px;
+        background: #00e0d0;
+        margin-bottom: 20px;
+    }
+/*==========navbar end==========*/
+    
+    
+    
+/*==========about start==========*/
+    #about-section {
+        padding: 40px 0px;
+    }
+    .about-image img {
+        width: 250px;
+        margin-top: -10px;
+    }
+    .about-text h2 {
+        margin-bottom: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .about-text p {
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .about-text a {
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px 3px 10px;
+        background: #00e0d0;
+        margin-top: 10px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+/*==========about end==========*/
+    
+    
+    
+/*==========video satrt==========*/
+    .video-contant a img {
+        width: 10%;
+        position: relative;
+        z-index: 2;
+    }
+    #video-section {
+        padding: 70px 0px;
+    }
+/*==========video end==========*/
+    
+    
+    
+/*==========expertise start==========*/
+    #expertise-section {
+        padding-top: 40px;
+    }
+    .expertise-title p {
+        font-size: 13px;
+        margin-bottom: 45px;
+    }
+    .expertise-card img {
+        width: 10%;
+        margin-bottom: 10px;
+    }
+    .expertise-card h2 {
+        margin-bottom: 5px;
+    }
+    .expertise-card p {
+	font-size: 13px;
+	margin-bottom: 40px;
+}
+/*==========expertise end==========*/
+    
+    
+    
+/*==========team start============*/
+    #team-section {
+        padding: 40px 0px;
+    }
+    .team-card-contant {
+        padding: 40px 0px;
+    }
+    .team-botton-contant a {
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px 3px 10px;
+        background: #00e0d0;
+    }
+/*==========team end============*/
+    
+    
+    
+/*==========project start============*/
+    #project-section {
+        padding: 40px 0px;
+    }
+    .project-image {
+        padding: 40px 0px;
+    }
+    .project-button a {
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px 3px 10px;
+        background: #00e0d0;
+    }
+    .project-top-contant-right{
+        float: right;
+    }
+/*==========project end============*/
+    
+    
+    
+/*===========testimonial start==========*/
+    #testimonial-section {
+        padding: 40px 0px;
+    }
+    .testimonial-text p {
+        font-size: 14px;
+        padding: 0px 0px;
+    }
+    .prevs {
+        bottom: 14%;
+        left: 11%;
+    }
+    .next {
+        bottom: 14%;
+        right: 11%;
+    }
+/*===========testimonial end==========*/
+    
+    
+    
+/*==========contact start===========*/
+    #contact-section {
+        padding: 40px 0px;
+    }
+    .contact-item h2 {
+        text-align: center;
+    }
+    .submitbuttom {
+        color: #fff;
+        font-size: 14px;
+        padding: 5px 10px 3px 10px;
+        background: #00e0d0;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .clint-item h2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .clint{
+        margin-left: 17%;
+    }
+/*==========contact end===========*/
+    
+    
+    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+/*==========navbar start==========*/
+    .navbar-light .navbar-toggler {
+        background: #00e0d0; 
+        border-color: rgba(0,0,0,.0);
+    }
+    .navbar-light .navbar-toggler-icon {
+        background: url(../image/menu.png);
+        background-size: cover;
+        transform: rotate;
+    }
+    .navbar-nav {
+        background: #13102d;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 0%;
+    }
+    .banner-contant {
+        padding-top: 125px;
+        padding-bottom: 120px;
+    }
+/*==========navbar end==========*/
+    
+    
+    
+/*==========about start==========*/
+    .about-text h2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .about-text p {
+        text-align: center;
+    }
+    .about-text a {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+/*==========about end==========*/
+    
+    
+    
+/*==========video satrt==========*/
+    #video-section {
+        padding: 100px 0px;
+    }
+    .video-contant a img {
+        width: 15%;
+    }
+/*==========video end==========*/
+    
+    
+       
+/*==========expertise start==========*/
+    .expertise-title p {;
+        margin-bottom: 70px;
+    }
+    .expertise-card p {
+        margin-bottom: 30px;
+    }
+    #expertise-section {
+        padding: 40px 0px;
+    }
+/*==========expertise end===========*/
+    
+    
+    
+/*==========project start============*/
+    #project-section {
+        padding: 40px 0px;
+    }
+    .project-image {
+        padding: 40px 0px;
+    }
+/*==========project end==========*/
+    
+    
+    
+/*===========testimonial start==========*/
+    .prevs {
+        bottom: 17%;
+        left: 20%;
+    }
+    .next {
+        bottom: 17%;
+        right: 20%;
+    }
+/*===========testimonial end==========*/
+    
+    
+
+/*==========contact start===========*/
+    .contact-item h2 {
+        text-align: center;
+    }
+    .clint-item h2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .submitbuttom {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .clint{
+        margin-left: 12%;
+    }
+/*==========contact end===========*/
+    
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
